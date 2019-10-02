@@ -69,10 +69,10 @@ void loop()
            client.println("<meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />");
            client.println("<link rel='stylesheet' type='text/css' link  href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' />");
            
-           client.println("<TITLE>Napster WORKSTATION</TITLE>");
+           client.println("<TITLE>Switch Board</TITLE>");
            client.println("</HEAD>");
            client.println("<BODY class=\"container jumbotron\">");
-           client.println("<H1 class=\"font-weight-bold\" >Workstation Control Panel</H1>");
+           client.println("<H1 class=\"font-weight-bold\" >SwitchBoard</H1>");
            client.println("<br />");  
            client.println("<hr />");  
            client.println("<a class=\"col col-lg-2 btn btn-success btn-lg btn-primary\" href=\"/?start\"\">Power</a>");
